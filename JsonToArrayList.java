@@ -8,7 +8,7 @@ class DS {
         // Prepare a union
         Set<Integer> union = new HashSet<Integer>(list1);
         union.addAll(list2);
-        // Prepare an intersection c
+        // Prepare an intersection 
         Set<Integer> intersection = new HashSet<Integer>(list1);
         intersection.retainAll(list2);
         // Subtract the intersection from the union
