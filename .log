@@ -1,6 +1,6 @@
 !SESSION 2023-04-17 12:54:15.874 -----------------------------------------------
 eclipse.buildId=4.18.0.202303131455
-java.version=17.0.6dsds
+java.version=17.0.6dsdsds
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
