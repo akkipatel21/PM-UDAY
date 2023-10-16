@@ -6,7 +6,7 @@ public class ReverseString {
 
         String str= "Java", str1="";
         char ch;
-
+          sssa
         for (int i=0; i<str.length(); i++)
         {
             ch= str.charAt(i); //extracts each character
