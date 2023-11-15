@@ -6,7 +6,7 @@
 
 <style>
 
-/* The Modal (background) */rrrgr
+/* The Modal (background) */rrrgrgrr
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
