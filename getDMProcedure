@@ -1,0 +1,21 @@
+CREATE DEFINER=`root`@`%` PROCEDURE `Get_DM_OLD_GARY`(IN dmId VARCHAR(50), OUT response json)
+BEGIN
+
+	DECLARE json TEXT DEFAULT '';
+	
+	SELECT json_object(
+	 'pyId', PYID,
+	 'fullName', FULL_NAME,
+	 'title', TITLE
+	 )  INTO json
+     
+	FROM JECS_112.DESIGNATED_MANAGER
+    WHERE PYID = dmId;
+    
+	-- SET out parameter 
+	SET response = json;
+        
+    SELECT json;
+    -- SELECT concat('jeCaseId = ', jeCaseId);
+    
+END
