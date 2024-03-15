@@ -1,4 +1,4 @@
-ypackage com.controller.adminPage;
+package com.controller.adminPage;
 
 import java.io.IOException;
 import java.net.URI;
